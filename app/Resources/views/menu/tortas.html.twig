@@ -13,22 +13,28 @@
         <div class="parallax"><img src="{{ asset('template/background4.jpg') }}" alt="Unsplashed background img 1"></div>
     </div>
 
-<div class="container">
-    <div class="section center">
+<div class="container center">
+    <div class="section">
 
       <!--   Icon Section   -->
       
       	{% for torta,precio in tortas %}
       	<div class="row">
-	        <div class="col s12 m4">
+	        <div class="col s12 m8">
 				<div class="icon-block">
 					<h3>{{ torta }}:</h3>
 				</div>
 	        </div>
 
-	        <div class="col s12 m4">
+	        <div class="col s12 m2">
 				<div class="icon-block">
 	        	<h3>${{ precio }}</h3>
+	        	</div>
+	        </div>
+
+	        <div class="col s12 m2">
+				<div class="icon-block">
+	        	<button class="btn-large waves-effect waves-light teal lighten-1" style="margin: 10px">Ordenar</button>
 	        	</div>
 	        </div>
     	</div>
