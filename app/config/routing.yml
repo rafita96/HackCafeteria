@@ -2,6 +2,11 @@ app:
     resource: '@AppBundle/Controller/'
     type: annotation
 
+default_app:
+    resource: '@AppBundle/Controller/DefaultController.php'
+    prefix: '/'
+    type: annotation
+
 menu_app:
     resource: '@AppBundle/Controller/MenuController.php'
     prefix: '/menu'
