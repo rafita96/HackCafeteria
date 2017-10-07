@@ -13,11 +13,11 @@ class MenuController extends Controller
      */
     public function tortasAction(Request $request)
     {
-    	$tortas = array("Jamón" => 55, 
+    	$tortas = array( "Jamón" => 55, 
             "Lomo" => 60, 
             "Carne" => 65,
             "Desebrada" => 65,
-            "Chorizo" => 50);
+            "Chorizo" => 50 );
 
         // replace this example code with whatever you need
         return $this->render('menu/tortas.html.twig', 
