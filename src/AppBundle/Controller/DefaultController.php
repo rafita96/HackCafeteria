@@ -19,16 +19,4 @@ class DefaultController extends Controller
                 "hola" => "Gaby",
             ));
     }
-
-    /**
-     * @Route("/hello", name="perro")
-     */
-    public function gatoAction(Request $request)
-    {
-        // replace this example code with whatever you need
-        return $this->render('menu/index.html.twig', 
-            array(
-                "hola" => "Anairene",
-            ));
-    }
 }

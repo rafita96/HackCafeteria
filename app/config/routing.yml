@@ -1,3 +1,8 @@
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
+
+menu_app:
+    resource: '@AppBundle/Controller/MenuController.php'
+    prefix: '/menu'
+    type: annotation
